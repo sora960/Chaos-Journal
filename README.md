@@ -20,14 +20,14 @@ This project uses a decoupled Monorepo structure.
 
 ---
 
-## 🧠 The Core Mechanics (How It Works)
+##  The Core Mechanics (How It Works)
 
 The journal is divided into four distinct buckets, fed by a single "Quick Dump" input.
 
-1.  **Random ⏱️**: The default landing zone. Thoughts live here temporarily. MongoDB automatically deletes them after a set time via TTL indexes unless they are promoted.
-2.  **Useful 🔍**: The cheatsheet zone. Standard storage for things like commands, links, or facts. Equipped with fuzzy search to find things instantly.
-3.  **Immortal 🏛️**: The permanent gallery. High-contrast, clean UI for top-tier ideas and long-term storage. No expiration.
-4.  **Graveyard 🪦**: The purgatory. Where expired "Random" thoughts go to sit for 30 days before permanent deletion.
+1.  **Random**: The default landing zone. Thoughts live here temporarily. MongoDB automatically deletes them after a set time via TTL indexes unless they are promoted.
+2.  **Useful**: The cheatsheet zone. Standard storage for things like commands, links, or facts. Equipped with fuzzy search to find things instantly.
+3.  **Immortal**: The permanent gallery. High-contrast, clean UI for top-tier ideas and long-term storage. No expiration.
+4.  **Graveyard**: The purgatory. Where expired "Random" thoughts go to sit for 30 days before permanent deletion.
 
 ### "The Magic" Features
 *   **Auto-Decay**: Zero background-jobs required. MongoDB handles the timers.
@@ -36,7 +36,7 @@ The journal is divided into four distinct buckets, fed by a single "Quick Dump" 
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 ```text
 chaos-journal/
 │
